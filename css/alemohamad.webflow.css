@@ -336,6 +336,23 @@ h2 {
   background-color: #fff;
 }
 
+.privacy-policy-body {
+  display: block;
+  padding: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+.privacy-heading {
+  margin-bottom: 24px;
+  color: #888;
+  font-size: 36px;
+}
+
+.privacy-bold-text {
+  font-weight: 600;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     padding-top: 40px;
@@ -353,6 +370,10 @@ h2 {
 
   .card {
     margin-bottom: 32px;
+  }
+
+  .privacy-heading {
+    margin-top: 8px;
   }
 }
 
@@ -420,6 +441,16 @@ h2 {
   .twitter-link {
     top: 16px;
     right: 16px;
+  }
+
+  .privacy-heading {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+
+  .privacy-paragraph {
+    font-size: 14px;
   }
 }
 
