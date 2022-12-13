@@ -239,14 +239,18 @@ h2 {
 }
 
 .app-section.tzolkin-maya {
-  background-color: #f0f0f0;
-}
-
-.app-section.gentleman {
   background-color: #e0e0e0;
 }
 
+.app-section.gentleman {
+  background-color: #d0d0d0;
+}
+
 .app-section.suji {
+  background-color: #f0f0f0;
+}
+
+.app-section.bus-fuengirola {
   background-color: #fcfcfc;
 }
 
