@@ -176,7 +176,7 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  padding: 36px 28px;
+  padding: 36px 24px 32px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -572,7 +572,7 @@ h2 {
   }
 
   .card-content {
-    padding: 28px 20px 36px;
+    padding: 28px 18px 36px;
   }
 
   .footer-span {
