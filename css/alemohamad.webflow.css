@@ -584,6 +584,11 @@ h2 {
     width: auto;
   }
 
+  .body-kit {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
