@@ -176,7 +176,7 @@ h2 {
 }
 
 .app-section.tzolkin-maya {
-  background-color: #e0e0e0;
+  background-color: #dcdcdc;
 }
 
 .app-section.gentleman {
@@ -184,10 +184,14 @@ h2 {
 }
 
 .app-section.suji {
-  background-color: #f0f0f0;
+  background-color: #e0e0e0;
 }
 
 .app-section.bus-fuengirola {
+  background-color: #f0f0f0;
+}
+
+.app-section.brewholic-ratio {
   background-color: #fcfcfc;
 }
 
