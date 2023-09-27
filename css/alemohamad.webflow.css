@@ -1078,6 +1078,13 @@ h2 {
   left: 0;
 }
 
+.apple-trademark {
+  color: #000;
+  padding: 32px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
