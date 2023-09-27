@@ -305,10 +305,6 @@ h2 {
   font-size: 24px;
 }
 
-.uses-section {
-  border-top: 1px solid #d2d2d7;
-}
-
 .uses-content {
   width: 78%;
   min-height: 20px;
@@ -345,18 +341,6 @@ h2 {
 
 .uses-title {
   width: 22%;
-}
-
-.nav-menu {
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  display: block;
-}
-
-.uses-nav-link {
-  padding-left: 20px;
-  padding-right: 0;
-  font-size: 12px;
 }
 
 .uses-item {
@@ -425,7 +409,7 @@ h2 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
 }
 
-.grid {
+.grid-icons {
   grid-column-gap: 32px;
   grid-row-gap: 16px;
   grid-template-rows: auto;
@@ -475,6 +459,625 @@ h2 {
   margin-left: 20px;
 }
 
+.kit-list-link {
+  color: #4f4f4f;
+  align-items: center;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  text-decoration: none;
+  transition: color .2s;
+  display: flex;
+}
+
+.kit-list-link:hover {
+  color: #8d8d8d;
+}
+
+.div-block {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-2 {
+  align-items: center;
+  display: flex;
+}
+
+.change-layout {
+  color: #fff;
+  background-color: #666;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  transition: background-color .2s;
+}
+
+.change-layout:hover {
+  background-color: #999;
+}
+
+.grid-list {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.kit-name-list {
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.image-list {
+  width: 60px;
+}
+
+.iphone-body {
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  display: block;
+}
+
+.iphone-title {
+  color: #000;
+  margin: 24px 40px;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.iphone-paragraph {
+  max-width: 750px;
+  color: #000;
+  margin-bottom: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 21px;
+}
+
+.grid {
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.device-iphone {
+  width: 350px;
+  height: 430px;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.iphone-model {
+  color: #000;
+  margin-bottom: 0;
+  font-size: 19px;
+  line-height: 1.8rem;
+}
+
+.grid-scroll {
+  margin-top: 64px;
+  overflow: auto;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  background-color: #f5f5f7;
+  border-radius: 50%;
+  font-style: italic;
+  box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+.color.natural-titanium {
+  background-color: #837f7d;
+}
+
+.color.blue-titanium {
+  background-color: #2f4452;
+}
+
+.color.white-titanium {
+  background-color: #ddd;
+}
+
+.color.black-titanium {
+  background-color: #1b1b1b;
+}
+
+.color.pink-15 {
+  background-color: #e3c8ca;
+}
+
+.color.yellow-15 {
+  background-color: #e6e0c1;
+}
+
+.color.green-15 {
+  background-color: #cad4c5;
+}
+
+.color.blue-15 {
+  background-color: #ced5d9;
+}
+
+.color.black-15 {
+  background-color: #35393b;
+}
+
+.color.deep-purple {
+  background-color: #594f63;
+}
+
+.color.gold {
+  background-color: #f4e8ce;
+}
+
+.color.silver {
+  background-color: #f0f2f2;
+}
+
+.color.space-black {
+  background-color: #403e3d;
+}
+
+.color.blue-14 {
+  background-color: #a0b4c7;
+}
+
+.color.purple-14 {
+  background-color: #e6ddeb;
+}
+
+.color.yellow-14 {
+  background-color: #f9e479;
+}
+
+.color.midnight-14 {
+  background-color: #222930;
+}
+
+.color.starlight-14 {
+  background-color: #faf6f2;
+}
+
+.color.red-14 {
+  background-color: #fc0324;
+}
+
+.color.midnight-se-3 {
+  background-color: #232a31;
+}
+
+.color.starlight-se-3 {
+  background-color: #faf6f2;
+}
+
+.color.red-se-3 {
+  background-color: #bf0013;
+}
+
+.color.alpine-green-13 {
+  background-color: #576856;
+}
+
+.color.silver-13 {
+  background-color: #f1f2ed;
+}
+
+.color.gold-13 {
+  background-color: #fae7cf;
+}
+
+.color.graphite-13 {
+  background-color: #54524f;
+}
+
+.color.sierra-blue-13 {
+  background-color: #a7c1d9;
+}
+
+.color.green-13 {
+  background-color: #394c38;
+}
+
+.color.pink-13 {
+  background-color: #faddd7;
+}
+
+.color.blue-13 {
+  background-color: #276787;
+}
+
+.color.midnight-13 {
+  background-color: #232a31;
+}
+
+.color.starlight-13 {
+  background-color: #faf6f2;
+}
+
+.color.red-13 {
+  background-color: #bf0013;
+}
+
+.color.pacific-blue-12 {
+  background-color: #2d4e5c;
+}
+
+.color.gold-12 {
+  background-color: #fcebd3;
+}
+
+.color.graphite-12 {
+  background-color: #52514d;
+}
+
+.color.silver-12 {
+  background-color: #e3e4df;
+}
+
+.color.purple-12 {
+  background-color: #b7afe6;
+}
+
+.color.blue-12 {
+  background-color: #023b63;
+}
+
+.color.green-12 {
+  background-color: #d8efd5;
+}
+
+.color.red-12 {
+  background-color: #d82e2e;
+}
+
+.color.white-12 {
+  background-color: #f6f2ef;
+}
+
+.color.black-12 {
+  background-color: #25212b;
+}
+
+.color.black-se-2 {
+  background-color: #262529;
+}
+
+.color.white-se-2 {
+  background-color: #f3f3f3;
+}
+
+.color.red-se-2 {
+  background-color: #b41325;
+}
+
+.color.midnight-green-11 {
+  background-color: #4e5851;
+}
+
+.color.silver-11 {
+  background-color: #ebebe3;
+}
+
+.color.space-gray-11 {
+  background-color: #535150;
+}
+
+.color.gold-11 {
+  background-color: #fad7bd;
+}
+
+.color.purple-11 {
+  background-color: #d1cdda;
+}
+
+.color.yellow-11 {
+  background-color: #ffe681;
+}
+
+.color.green-11 {
+  background-color: #aee1cd;
+}
+
+.color.black-11 {
+  background-color: #1f2020;
+}
+
+.color.white-11 {
+  background-color: #f9f6ef;
+}
+
+.color.red-11 {
+  background-color: #ba0c2e;
+}
+
+.color.silver-xs {
+  background-color: #e4e4e2;
+}
+
+.color.space-gray-xs {
+  background-color: #262529;
+}
+
+.color.gold-xs {
+  background-color: #fadcc2;
+}
+
+.color.blue-xr {
+  background-color: #48aee6;
+}
+
+.color.white-xr {
+  background-color: #f3f3f3;
+}
+
+.color.black-xr {
+  background-color: #2e3034;
+}
+
+.color.yellow-xr {
+  background-color: #f9d045;
+}
+
+.color.coral-xr {
+  background-color: #ff6e5a;
+}
+
+.color.red-xr {
+  background-color: #b41325;
+}
+
+.color.silver-x {
+  background-color: #e4e4e2;
+}
+
+.color.space-gray-x {
+  background-color: #262529;
+}
+
+.color.silver-8 {
+  background-color: #e2e3e4;
+}
+
+.color.space-gray-8 {
+  background-color: #272729;
+}
+
+.color.gold-8 {
+  background-color: #f7e8dd;
+}
+
+.color.silver-7 {
+  background-color: #e2e3e4;
+}
+
+.color.black-7 {
+  background-color: #2e3034;
+}
+
+.color.gold-7 {
+  background-color: #e3ccb4;
+}
+
+.color.rose-gold-7 {
+  background-color: #ecc6c1;
+}
+
+.color.silver-6s {
+  background-color: #e2e3e4;
+}
+
+.color.space-gray-6s {
+  background-color: #b1b2b7;
+}
+
+.color.gold-6s {
+  background-color: #e3ccb4;
+}
+
+.color.rose-gold-6s {
+  background-color: #ecc6c1;
+}
+
+.color.silver-6 {
+  background-color: #e2e3e4;
+}
+
+.color.space-gray-6 {
+  background-color: #b1b2b7;
+}
+
+.color.gold-6 {
+  background-color: #e3ccb4;
+}
+
+.color.silver-se {
+  background-color: #e4e4e2;
+}
+
+.color.space-gray-se {
+  background-color: #262529;
+}
+
+.color.gold-se {
+  background-color: #fadcc2;
+}
+
+.color.rose-gold-se {
+  background-color: #ecc6c1;
+}
+
+.color.white-5c {
+  background-color: #f0eff2;
+}
+
+.color.red-5c {
+  background-color: #f67873;
+}
+
+.color.yellow-5c {
+  background-color: #fdf078;
+}
+
+.color.blue-5c {
+  background-color: #4dbdf9;
+}
+
+.color.green-5c {
+  background-color: #a2ee73;
+}
+
+.color.black-4 {
+  background-color: #2e3034;
+}
+
+.color.white-4 {
+  background-color: #f6f2ef;
+}
+
+.color.white-3g {
+  background-color: #f3f3f3;
+}
+
+.iphone-colors {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 12px;
+  display: flex;
+}
+
+.iphone-devices-list {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  align-items: flex-start;
+  margin-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  position: relative;
+  top: 0;
+  overflow: visible;
+}
+
+.iphone-title-block {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, .7);
+  align-items: center;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 8px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.iphone-launch-date {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.iphone-device-specs {
+  position: relative;
+  top: 0;
+}
+
+.highlighted-detail {
+  color: #000;
+  text-align: center;
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.details-list {
+  color: #000;
+  text-align: center;
+  padding-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2em;
+  list-style-type: none;
+}
+
+.detail-item {
+  margin-top: 17px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.detail-item.clear {
+  opacity: 0;
+}
+
+.detail-item.empty3 {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.detail-item.empty13 {
+  padding-top: 51px;
+  padding-bottom: 50px;
+}
+
+.highlighted-block {
+  padding-top: 40px;
+}
+
+.highlighted-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.highlighted-image.hidden {
+  opacity: 0;
+}
+
+.highlighted-title {
+  color: #000;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.section {
+  position: relative;
+  top: 0;
+}
+
+.section-title-desc {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
@@ -495,11 +1098,19 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
-  .grid {
+  .grid-icons {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .kit-name {
+    opacity: 1;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .kit-name-list {
     opacity: 1;
   }
 }
@@ -531,10 +1142,6 @@ h2 {
 
   .card-content {
     padding: 28px 18px 36px;
-  }
-
-  .footer-span {
-    display: block;
   }
 
   .app-name {
@@ -593,8 +1200,20 @@ h2 {
     padding-right: 0;
   }
 
-  .grid {
+  .grid-icons {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .change-layout {
+    display: none;
+  }
+
+  .iphone-title {
+    font-size: 42px;
+  }
+
+  .iphone-paragraph {
+    font-size: 18px;
   }
 }
 
@@ -625,8 +1244,25 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .grid {
+  .grid-icons {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr;
+  }
+
+  .iphone-title {
+    font-size: 32px;
+  }
+
+  .iphone-paragraph {
+    font-size: 14px;
+  }
+
+  .device-iphone {
+    width: 250px;
+    height: 380px;
   }
 }
 
