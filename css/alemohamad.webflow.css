@@ -1085,6 +1085,23 @@ h2 {
   line-height: 1.2em;
 }
 
+.capsule {
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 4px 16px;
+  display: inline-block;
+}
+
+.capsule.vintage {
+  background-color: #999;
+}
+
+.capsule.obsolete {
+  color: #000;
+  background-color: #ccc;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
