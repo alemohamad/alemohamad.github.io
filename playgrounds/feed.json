@@ -14,11 +14,11 @@
             "difficultyLevel": "intermediate",
             "contentIdentifier": "com.alemohamad.playgrounds.assets",
             "contentVersion": "1.0",
-            "url": "https:\/\/www.alemohamad.com\/playgrounds\/playgrounds-assets\/playgrounds-assets.zip",
+            "url": "https://www.alemohamad.com/playgrounds/playgrounds-assets/playgrounds-assets.zip",
             "publishedDate": "2023-11-18T09:00:00+00:00",
             "lastUpdatedDate": "2023-11-18T09:00:00+00:00",
-            "thumbnailURL": "\/playgrounds\/playgrounds-assets\/thumbnail.png",
-            "bannerImageURL": "\/playgrounds\/playgrounds-assets\/bannerImage.png",
+            "thumbnailURL": "/playgrounds/playgrounds-assets/thumbnail.png",
+            "bannerImageURL": "/playgrounds/playgrounds-assets/bannerImage.png",
             "additionalInformation": [
                 {
                     "name": "Version",
@@ -35,9 +35,9 @@
                 }
             ],
             "previewImageURLs": [
-                "\/playgrounds\/playgrounds-assets\/preview-1.png",
-                "\/playgrounds\/playgrounds-assets\/preview-2.png",
-                "\/playgrounds\/playgrounds-assets\/preview-3.png"
+                "/playgrounds/playgrounds-assets/preview-1.png",
+                "/playgrounds/playgrounds-assets/preview-2.png",
+                "/playgrounds/playgrounds-assets/preview-3.png"
             ]
         },
         {
@@ -47,11 +47,11 @@
             "description": "Los ejercicios semanales se resuelven en pocas líneas de código por lo que el conocimiento mínimo para abordarlos será menor que en las aplicaciones mensuales, ya que estas últimas cubren funcionalidades reales completas.\n\n¿Crees que no estás preparado? No te preocupes. Intenta llevar a cabo los ejercicios. Se trata de aprender y mejorar poco a poco, no de hacerlos perfectos o completos a la primera.\n\nEste proyecto para Swift Playgrounds es un gran acompañante para ver los enunciados de los retos de 2022 y 2023, además de poder ver la solución planteada por Brais Moure (y también mías). Si así lo quieres, puedes borrar el código provisto e intentar tu solución.\n\n¡Comencemos a picar!",
             "contentIdentifier": "com.alemohamad.playgrounds.retosdeprogramacion",
             "contentVersion": "1.0",
-            "url": "https:\/\/www.alemohamad.com\/playgrounds\/retos-de-programacion\/retos-de-programacion.zip",
+            "url": "https://www.alemohamad.com/playgrounds/retos-de-programacion/retos-de-programacion.zip",
             "publishedDate": "2023-11-18T09:00:00+00:00",
             "lastUpdatedDate": "2023-11-18T09:00:00+00:00",
-            "thumbnailURL": "\/playgrounds\/retos-de-programacion\/thumbnail.png",
-            "bannerImageURL": "\/playgrounds\/retos-de-programacion\/bannerImage.png",
+            "thumbnailURL": "/playgrounds/retos-de-programacion/thumbnail.png",
+            "bannerImageURL": "/playgrounds/retos-de-programacion/bannerImage.png",
             "additionalInformation": [
                 {
                     "name": "Edition",
@@ -72,9 +72,9 @@
                 }
             ],
             "previewImageURLs": [
-                "\/playgrounds\/retos-de-programacion\/preview-1.png",
-                "\/playgrounds\/retos-de-programacion\/preview-2.png",
-                "\/playgrounds\/retos-de-programacion\/preview-3.png"
+                "/playgrounds/retos-de-programacion/preview-1.png",
+                "/playgrounds/retos-de-programacion/preview-2.png",
+                "/playgrounds/retos-de-programacion/preview-3.png"
             ]
         },
         {
@@ -84,11 +84,11 @@
             "difficultyLevel": "beginner",
             "contentIdentifier": "com.alemohamad.playgrounds.applelogo",
             "contentVersion": "1.0",
-            "url": "https:\/\/www.alemohamad.com\/playgrounds\/apple-logo\/apple-logo.zip",
+            "url": "https://www.alemohamad.com/playgrounds/apple-logo/apple-logo.zip",
             "publishedDate": "2023-11-18T09:00:00+00:00",
             "lastUpdatedDate": "2023-11-18T09:00:00+00:00",
-            "thumbnailURL": "\/playgrounds\/apple-logo\/thumbnail.png",
-            "bannerImageURL": "\/playgrounds\/apple-logo\/bannerImage.png",
+            "thumbnailURL": "/playgrounds/apple-logo/thumbnail.png",
+            "bannerImageURL": "/playgrounds/apple-logo/bannerImage.png",
             "additionalInformation": [
                 {
                     "name": "Version",
@@ -105,8 +105,8 @@
                 }
             ],
             "previewImageURLs": [
-                "\/playgrounds\/apple-logo\/preview-1.png",
-                "\/playgrounds\/apple-logo\/preview-2.png"
+                "/playgrounds/apple-logo/preview-1.png",
+                "/playgrounds/apple-logo/preview-2.png"
             ]
         }
     ]
