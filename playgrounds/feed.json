@@ -1,5 +1,6 @@
 {
-    "title": "Playgrounds by Ale Mohamad",
+    "title": "Ale Mohamad",
+    "subtitle": "Playgrounds by Ale Mohamad",
     "publisherName": "Ale Mohamad",
     "feedIdentifier": "com.alemohamad.playgrounds",
     "contactURL": "mailto:hello@alemohamad.com",
@@ -19,6 +20,15 @@
             "thumbnailURL": "\/playgrounds\/playgrounds-assets\/thumbnail.png",
             "bannerImageURL": "\/playgrounds\/playgrounds-assets\/bannerImage.png",
             "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2023-11-18T14:39:00+01:00"
+                },
                 {
                     "name": "Languages",
                     "value": "English"
@@ -48,6 +58,15 @@
                     "value": "Swift 5.9 Edition"
                 },
                 {
+                    "name": "Version",
+                    "value": "1.23.44"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2023-11-18T17:32:00+01:00"
+                },
+                {
                     "name": "Languages",
                     "value": "Español"
                 }
@@ -71,6 +90,15 @@
             "thumbnailURL": "\/playgrounds\/apple-logo\/thumbnail.png",
             "bannerImageURL": "\/playgrounds\/apple-logo\/bannerImage.png",
             "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2022-10-17T14:39:00+01:00"
+                },
                 {
                     "name": "Languages",
                     "value": "English"
