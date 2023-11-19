@@ -7,6 +7,25 @@
   display: grid;
 }
 
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
 body {
   color: #999;
   cursor: default;
@@ -1100,6 +1119,33 @@ h2 {
 .capsule.obsolete {
   color: #000;
   background-color: #ccc;
+}
+
+.subscribe-button {
+  color: #fff;
+  background-color: #f05138;
+  border-radius: 8px;
+  padding: 8px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.playgrounds-copy {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.playgrounds-copy-sm {
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.playgrounds-block {
+  margin-top: 48px;
 }
 
 @media screen and (max-width: 991px) {
