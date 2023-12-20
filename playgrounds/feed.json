@@ -9,25 +9,30 @@
         {
             "title": "Assets for Playgrounds",
             "overviewSubtitle": "Enhance your projects",
-            "detailSubtitle": "Colors, images and custom fonts",
-            "description": "A practical resource designed to enrich your Swift Playground projects.\n\nThis app provides some helpers to prepare colors, images, and custom fonts, offering you the essentials to add a unique touch to your creations.\n\nWhether you're working on a personal project or broadening your learning experience, this will help you add more assets than simply import an image from Photos app.",
+            "detailSubtitle": "Colors, images, custom fonts and localization",
+            "description": "A practical resource designed to enrich your Swift Playground projects.\n\nThis app provides some helpers to prepare colors, images, custom fonts and localization, offering you the essentials to add a unique touch to your creations.\n\nWhether you're working on a personal project or broadening your learning experience, this will help you add more assets than simply import an image from Photos app.",
             "difficultyLevel": "intermediate",
             "contentIdentifier": "com.alemohamad.playgrounds.assets",
             "contentVersion": "1.0",
             "url": "https://www.alemohamad.com/playgrounds/playgrounds-assets/playgrounds-assets.zip",
-            "publishedDate": "2023-11-18T09:00:00+00:00",
-            "lastUpdatedDate": "2023-11-18T09:00:00+00:00",
+            "publishedDate": "2023-11-18T09:00:00+01:00",
+            "lastUpdatedDate": "2023-12-20T09:00:00+01:00",
             "thumbnailURL": "/playgrounds/playgrounds-assets/thumbnail.png",
             "bannerImageURL": "/playgrounds/playgrounds-assets/bannerImage.png",
             "additionalInformation": [
                 {
                     "name": "Version",
-                    "value": "1.0"
+                    "value": "1.1"
                 },
                 {
                     "type": "date",
                     "name": "Released",
                     "value": "2023-11-18T14:39:00+01:00"
+                },
+                {
+                    "type": "date",
+                    "name": "Updated",
+                    "value": "2023-12-20T09:00:00+01:00"
                 },
                 {
                     "name": "Languages",
@@ -48,8 +53,8 @@
             "contentIdentifier": "com.alemohamad.playgrounds.retosdeprogramacion",
             "contentVersion": "1.0",
             "url": "https://www.alemohamad.com/playgrounds/retos-de-programacion/retos-de-programacion.zip",
-            "publishedDate": "2023-11-18T09:00:00+00:00",
-            "lastUpdatedDate": "2023-11-18T09:00:00+00:00",
+            "publishedDate": "2023-11-18T09:00:00+01:00",
+            "lastUpdatedDate": "2023-11-18T09:00:00+01:00",
             "thumbnailURL": "/playgrounds/retos-de-programacion/thumbnail.png",
             "bannerImageURL": "/playgrounds/retos-de-programacion/bannerImage.png",
             "additionalInformation": [
@@ -85,8 +90,8 @@
             "contentIdentifier": "com.alemohamad.playgrounds.applelogo",
             "contentVersion": "1.0",
             "url": "https://www.alemohamad.com/playgrounds/apple-logo/apple-logo.zip",
-            "publishedDate": "2023-11-18T09:00:00+00:00",
-            "lastUpdatedDate": "2023-11-18T09:00:00+00:00",
+            "publishedDate": "2023-11-18T09:00:00+01:00",
+            "lastUpdatedDate": "2023-11-18T09:00:00+01:00",
             "thumbnailURL": "/playgrounds/apple-logo/thumbnail.png",
             "bannerImageURL": "/playgrounds/apple-logo/bannerImage.png",
             "additionalInformation": [
