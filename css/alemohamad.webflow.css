@@ -101,9 +101,13 @@ h2 {
 }
 
 .footer {
+  max-width: 720px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.8em;
+  display: block;
 }
 
 .card-paragraph {
@@ -1247,6 +1251,14 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.logos-playgrounds {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
@@ -1296,6 +1308,10 @@ h2 {
   h2 {
     font-size: 19px;
     line-height: 22px;
+  }
+
+  .footer {
+    font-size: 13px;
   }
 
   .card-paragraph {
