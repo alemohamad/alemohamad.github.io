@@ -46,6 +46,40 @@
             ]
         },
         {
+            "title": "Design Patterns in Swift",
+            "overviewSubtitle": "The Catalog of Swift Examples",
+            "description": "Design patterns are typical solutions to common problems in software design. Each pattern is like a blueprint that you can customize to solve a particular design problem in your code.\n\nDive into each of the 22 classic design patterns, grouped by their intent, applied directly in Swift.\n\nThis book is based on 'Refactoring.Guru: Design Patterns in Swift' by Eremenko Maxim and Alexander Shvets. Visit https://refactoring.guru/design-patterns to learn more about design patterns.",
+            "difficultyLevel": "advanced",
+            "contentIdentifier": "com.alemohamad.playgrounds.design-patterns",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/design-patterns/design-patterns.zip",
+            "publishedDate": "2024-02-26T09:00:00+01:00",
+            "lastUpdatedDate": "2024-02-26T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/design-patterns/thumbnail.png",
+            "bannerImageURL": "/playgrounds/design-patterns/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2024-02-26T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "English"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/design-patterns/preview-1.png",
+                "/playgrounds/design-patterns/preview-2.png",
+                "/playgrounds/design-patterns/preview-3.png",
+                "/playgrounds/design-patterns/preview-4.png"
+            ]
+        },
+        {
             "title": "Retos de Programación",
             "overviewSubtitle": "Mejora tus habilidades",
             "detailSubtitle": "Ejercicios para mejorar tu lógica de programación y desarrollo de aplicaciones para añadir a tu portfolio personal",
