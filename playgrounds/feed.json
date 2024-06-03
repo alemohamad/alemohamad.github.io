@@ -10,7 +10,7 @@
             "title": "Assets for Playgrounds",
             "overviewSubtitle": "Enhance your projects",
             "detailSubtitle": "Colors, images, custom fonts and localization",
-            "description": "A practical resource designed to enrich your Swift Playground projects.\n\nThis app provides some helpers to prepare colors, images, custom fonts and localization, offering you the essentials to add a unique touch to your creations.\n\nWhether you're working on a personal project or broadening your learning experience, this will help you add more assets than simply import an image from Photos app.",
+            "description": "A practical resource designed to enrich your Swift Playground projects.\n\nThis app provides some helpers to prepare colors, images, custom fonts and localization, offering you the essentials to add a unique touch to your creations.\n\nWhether you're working on a personal project or broadening your learning experience, this will help you add more assets than simply import an image from Photos app.\n\nIf you want to create a Playground Book, you’ll find everything you need right here.",
             "difficultyLevel": "intermediate",
             "contentIdentifier": "com.alemohamad.playgrounds.assets",
             "contentVersion": "1.0",
@@ -22,7 +22,7 @@
             "additionalInformation": [
                 {
                     "name": "Version",
-                    "value": "1.1"
+                    "value": "1.2"
                 },
                 {
                     "type": "date",
@@ -32,7 +32,7 @@
                 {
                     "type": "date",
                     "name": "Updated",
-                    "value": "2023-12-20T09:00:00+01:00"
+                    "value": "2024-06-02T09:00:00+01:00"
                 },
                 {
                     "name": "Languages",
@@ -42,7 +42,8 @@
             "previewImageURLs": [
                 "/playgrounds/playgrounds-assets/preview-1.png",
                 "/playgrounds/playgrounds-assets/preview-2.png",
-                "/playgrounds/playgrounds-assets/preview-3.png"
+                "/playgrounds/playgrounds-assets/preview-3.png",
+                "/playgrounds/playgrounds-assets/preview-4.png"
             ]
         },
         {
@@ -77,6 +78,73 @@
                 "/playgrounds/design-patterns/preview-2.png",
                 "/playgrounds/design-patterns/preview-3.png",
                 "/playgrounds/design-patterns/preview-4.png"
+            ]
+        },
+        {
+            "title": "Formatting Fundamentals",
+            "overviewSubtitle": "Format Like a Pro with Swift",
+            "description": "This is your go-to Playground Book for mastering the intricacies of formatting in Swift. Whether you need to format numbers, currencies, dates, or measurements, this guide has got you covered. With examples localized in several languages, it showcases both classic and modern formatters, ensuring you can apply these techniques in any project. Plus, you’ll find practical usage examples for both UIKit and SwiftUI, making it an indispensable resource for Swift developers of all levels.",
+            "difficultyLevel": "intermediate",
+            "contentIdentifier": "com.alemohamad.playgrounds.formatting-fundamentals",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/formatting-fundamentals/formatting-fundamentals.zip",
+            "publishedDate": "2024-06-02T09:00:00+01:00",
+            "lastUpdatedDate": "2024-06-02T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/formatting-fundamentals/thumbnail.png",
+            "bannerImageURL": "/playgrounds/formatting-fundamentals/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2024-06-02T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "English"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/formatting-fundamentals/preview-1.png",
+                "/playgrounds/formatting-fundamentals/preview-2.png",
+                "/playgrounds/formatting-fundamentals/preview-3.png",
+                "/playgrounds/formatting-fundamentals/preview-4.png"
+            ]
+        },
+        {
+            "title": "Example Book",
+            "overviewSubtitle": "Creating a Playground Book from scratch",
+            "description": "This example book walks you through the entire process of building your own Playground Book from the ground up, covering everything from structuring chapters and pages to adding documentation, resources, modules, hints, and cutscenes. Follow along with the detailed instructions and examples provided to creating engaging and educational Playground Books. For an in-depth tutorial, check out the accompanying YouTube in https://youtu.be/xmva1NWEs5s. Whether you’re a beginner or an experienced developer, this resource will equip you with the knowledge and tools to bring your Playground Book ideas to life.",
+            "difficultyLevel": "intermediate",
+            "contentIdentifier": "com.alemohamad.playgrounds.example-book",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/example-book/example-book.zip",
+            "publishedDate": "2024-06-02T09:00:00+01:00",
+            "lastUpdatedDate": "2024-06-02T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/example-book/thumbnail.png",
+            "bannerImageURL": "/playgrounds/example-book/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2024-06-02T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "English"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/example-book/preview-1.png",
+                "/playgrounds/example-book/preview-2.png",
+                "/playgrounds/example-book/preview-3.png"
             ]
         },
         {
