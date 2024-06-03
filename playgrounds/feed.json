@@ -115,7 +115,7 @@
             ]
         },
         {
-            "title": "Example Book",
+            "title": "Book",
             "overviewSubtitle": "Creating a Playground Book from scratch",
             "description": "This example book walks you through the entire process of building your own Playground Book from the ground up, covering everything from structuring chapters and pages to adding documentation, resources, modules, hints, and cutscenes. Follow along with the detailed instructions and examples provided to creating engaging and educational Playground Books. For an in-depth tutorial, check out the accompanying YouTube in https://youtu.be/xmva1NWEs5s. Whether you’re a beginner or an experienced developer, this resource will equip you with the knowledge and tools to bring your Playground Book ideas to life.",
             "difficultyLevel": "intermediate",
