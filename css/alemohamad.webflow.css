@@ -254,6 +254,10 @@ h2 {
 }
 
 .app-title {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 24px;
   display: flex;
 }
@@ -262,7 +266,6 @@ h2 {
   color: #111;
   letter-spacing: .4px;
   text-transform: none;
-  padding-left: 16px;
   font-size: 32px;
   font-weight: 600;
   line-height: 45px;
@@ -1655,9 +1658,18 @@ h2 {
     background-size: auto;
   }
 
+  .app-title {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+  }
+
   .app-name {
-    padding-left: 8px;
     font-size: 26px;
+  }
+
+  .app-name.small {
+    max-width: 270px;
+    line-height: 33px;
   }
 
   .app-tag-group {
@@ -1758,13 +1770,10 @@ h2 {
     padding-right: 16px;
   }
 
-  .app-title {
-    align-items: flex-start;
-  }
-
   .app-name.small {
+    max-width: 250px;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 26px;
   }
 
   .uses-content.devices {
