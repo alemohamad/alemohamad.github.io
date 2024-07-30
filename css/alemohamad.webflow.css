@@ -204,17 +204,17 @@ h2 {
 }
 
 .app-section.tzolkin-maya {
-  background-color: #dcdcdc;
-  background-image: url('../images/tzolkin-maya-devices.png');
-  background-position: 50% 170%;
+  background-color: #f1f1f1;
+  background-image: url('../images/tzolkin-maya-devices-half.png');
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: 722px;
 }
 
 .app-section.gentleman {
-  background-color: #d0d0d0;
-  background-image: url('../images/gentleman-devices.png');
-  background-position: 50% 170%;
+  background-color: #dbdbdb;
+  background-image: url('../images/gentleman-devices-half.png');
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: 722px;
   background-attachment: scroll;
@@ -222,25 +222,25 @@ h2 {
 
 .app-section.suji {
   background-color: #fcfcfc;
-  background-image: url('../images/suji-devices.png');
-  background-position: 50% 170%;
+  background-image: url('../images/suji-devices-half.png');
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: 722px;
   background-attachment: scroll;
 }
 
 .app-section.bus-fuengirola {
-  background-color: #e0e0e0;
-  background-image: url('../images/bus-fuengirola-devices.png');
-  background-position: 50% 170%;
+  background-color: #d0d0d0;
+  background-image: url('../images/bus-fuengirola-devices-half.png');
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: 722px;
 }
 
 .app-section.brewholic-ratio {
-  background-color: #f0f0f0;
-  background-image: url('../images/brewholic-ratio-device.png');
-  background-position: 50% 170%;
+  background-color: #e6e6e6;
+  background-image: url('../images/brewholic-ratio-device-half.png');
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: 722px;
 }
@@ -1554,23 +1554,6 @@ h2 {
   display: flex;
 }
 
-@media screen and (min-width: 1920px) {
-  .app-section.tzolkin-maya, .app-section.gentleman {
-    background-position: 50% 130%;
-  }
-
-  .app-section.suji {
-    background-image: url('../images/suji-devices.png');
-    background-position: 50% 130%;
-    background-repeat: no-repeat;
-    background-size: 722px;
-  }
-
-  .app-section.bus-fuengirola, .app-section.brewholic-ratio {
-    background-position: 50% 130%;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
@@ -1583,13 +1566,8 @@ h2 {
     margin-bottom: 32px;
   }
 
-  .app-section.tzolkin-maya, .app-section.gentleman, .app-section.suji, .app-section.bus-fuengirola {
-    background-position: 50% 135%;
-    background-size: 512px;
-  }
-
-  .app-section.brewholic-ratio {
-    background-position: 50% 130%;
+  .app-section.tzolkin-maya, .app-section.gentleman, .app-section.suji, .app-section.bus-fuengirola, .app-section.brewholic-ratio {
+    background-position: 50% 100%;
     background-size: 512px;
   }
 
@@ -1756,6 +1734,10 @@ h2 {
 @media screen and (max-width: 479px) {
   .container.cards {
     padding-top: 30px;
+  }
+
+  .app-section.tzolkin-maya, .app-section.gentleman, .app-section.suji, .app-section.bus-fuengirola {
+    background-size: 300px;
   }
 
   .app-container {
