@@ -290,11 +290,11 @@ h2 {
   line-height: 20px;
 }
 
-.app-devices {
-  padding-top: 16px;
-}
-
 .am-apps {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
   display: flex;
   position: fixed;
   top: 32px;
@@ -1307,14 +1307,6 @@ h2 {
   position: relative;
 }
 
-.apps-bento-item.with-image {
-  text-align: center;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .apps-bento-item.icon {
   background-color: rgba(245, 245, 247, 0);
   border: .5px solid #e0e0e0;
@@ -1400,22 +1392,6 @@ h2 {
   line-height: 28px;
 }
 
-.apps-bento-text.complete {
-  text-align: center;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.apps-bento-text.localization {
-  padding-bottom: 8px;
-  font-size: 36px;
-  line-height: 48px;
-}
-
 .apps-bento-text.developer {
   font-weight: 400;
 }
@@ -1444,34 +1420,6 @@ h2 {
   bottom: 0%;
   left: 0%;
   right: 0%;
-}
-
-.apps-bento-text-small {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 19px;
-}
-
-.apps-bento-text-small.complete {
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.apps-bento-text-small.localization {
-  padding-bottom: 8px;
-}
-
-.color-1 {
-  color: #ffbd39;
-}
-
-.color-2 {
-  color: #c34bff;
 }
 
 .hero-app-screenshot {
@@ -1536,15 +1484,11 @@ h2 {
   margin-right: auto;
 }
 
-.image-3 {
-  mix-blend-mode: multiply;
-}
-
 .container-events {
   max-width: 1230px;
 }
 
-.link-block, .link-block-2, .app-link-block, .link-block-4, .link-block-5 {
+.app-link-block {
   text-decoration: none;
 }
 
@@ -1668,7 +1612,7 @@ h2 {
   }
 
   .app-name.small {
-    max-width: 270px;
+    max-width: 250px;
     line-height: 33px;
   }
 
@@ -1678,10 +1622,6 @@ h2 {
 
   .app-tag-group.mobile {
     display: flex;
-  }
-
-  .app-devices {
-    padding-top: 0;
   }
 
   .am-apps {
@@ -1771,7 +1711,7 @@ h2 {
   }
 
   .app-name.small {
-    max-width: 250px;
+    max-width: 240px;
     font-size: 24px;
     line-height: 26px;
   }
