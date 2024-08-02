@@ -1489,12 +1489,6 @@ h2 {
   display: flex;
 }
 
-.kotlin-code {
-  height: 86%;
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
 .header-kotlin {
   justify-content: flex-start;
   align-items: center;
@@ -1502,6 +1496,12 @@ h2 {
   padding-left: 36px;
   padding-right: 36px;
   display: flex;
+}
+
+.kotlin-container {
+  height: 86%;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 @media screen and (max-width: 991px) {
