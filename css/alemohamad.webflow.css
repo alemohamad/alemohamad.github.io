@@ -153,10 +153,7 @@ h2 {
 .card-logo {
   align-self: flex-start;
   position: absolute;
-  top: 40px;
-  bottom: auto;
-  left: 32px;
-  right: auto;
+  inset: 40px auto auto 32px;
 }
 
 .card-content {
@@ -177,10 +174,7 @@ h2 {
   filter: saturate(200%) blur(35px);
   border-radius: 12px;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .contact {
@@ -297,19 +291,13 @@ h2 {
   align-items: center;
   display: flex;
   position: fixed;
-  top: 32px;
-  bottom: auto;
-  left: 32px;
-  right: auto;
+  inset: 32px auto auto 32px;
 }
 
 .x-link {
   padding: 4px;
   position: fixed;
-  top: 32px;
-  bottom: auto;
-  left: auto;
-  right: 32px;
+  inset: 32px 32px auto auto;
 }
 
 .body-apps {
@@ -349,7 +337,7 @@ h2 {
 }
 
 .uses-navigation-bar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
 }
 
 .uses-heading-2 {
@@ -460,7 +448,7 @@ h2 {
   background-color: #eceded;
   justify-content: flex-start;
   padding: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .grid-icons {
@@ -577,7 +565,7 @@ h2 {
   background-color: #fff;
   margin-top: 16px;
   margin-bottom: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   display: block;
 }
 
@@ -620,7 +608,7 @@ h2 {
   width: 32px;
   height: 32px;
   font-style: italic;
-  box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 0 1px 1px #0000001a;
 }
 
 .color.natural-titanium {
@@ -1030,13 +1018,12 @@ h2 {
 .iphone-title-block {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, .7);
+  background-color: #ffffffb3;
   align-items: center;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
   padding: 8px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -1122,7 +1109,6 @@ h2 {
 }
 
 .section-title-desc {
-  position: -webkit-sticky;
   position: sticky;
   left: 0;
 }
@@ -1194,7 +1180,7 @@ h2 {
   background-color: #fff;
   margin-top: 16px;
   margin-bottom: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   display: block;
 }
 
@@ -1308,7 +1294,7 @@ h2 {
 }
 
 .apps-bento-item.icon {
-  background-color: rgba(245, 245, 247, 0);
+  background-color: #f5f5f700;
   border: .5px solid #e0e0e0;
   flex-flow: column;
   justify-content: center;
@@ -1416,10 +1402,7 @@ h2 {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .hero-app-screenshot {
@@ -1430,7 +1413,7 @@ h2 {
 }
 
 .slider {
-  background-color: rgba(221, 221, 221, 0);
+  background-color: #ddd0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1448,10 +1431,7 @@ h2 {
   font-size: .45rem;
   line-height: 40px;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .body-events {
@@ -1473,8 +1453,7 @@ h2 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-content: stretch;
-  justify-content: stretch;
+  place-content: stretch;
   display: grid;
 }
 
@@ -1498,6 +1477,30 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   padding: 24px 10px 10px;
+  display: flex;
+}
+
+.section-kotlin {
+  background-color: #313336;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.kotlin-code {
+  height: 86%;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.header-kotlin {
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80px;
+  padding-left: 36px;
+  padding-right: 36px;
   display: flex;
 }
 
