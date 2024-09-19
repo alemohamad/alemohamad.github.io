@@ -991,6 +991,42 @@ h2 {
   background-color: #dd3c43;
 }
 
+.color.desert-titanium {
+  background-color: #bfa48f;
+}
+
+.color.natural-titanium-16 {
+  background-color: #c2bcb2;
+}
+
+.color.white-titanium-16 {
+  background-color: #f2f1ed;
+}
+
+.color.black-titanium-16 {
+  background-color: #3c3c3d;
+}
+
+.color.ultramarine {
+  background-color: #9aadf6;
+}
+
+.color.teal {
+  background-color: #b0d4d2;
+}
+
+.color.pink-16 {
+  background-color: #f2adda;
+}
+
+.color.white-16 {
+  background-color: #fafafa;
+}
+
+.color.black-16 {
+  background-color: #3c4042;
+}
+
 .iphone-colors {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
@@ -1079,6 +1115,21 @@ h2 {
 .detail-item.empty13 {
   padding-top: 51px;
   padding-bottom: 50px;
+}
+
+.detail-item.empty2 {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.detail-item.empty4 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.detail-item.empty14 {
+  padding-top: 51px;
+  padding-bottom: 111px;
 }
 
 .highlighted-block {
