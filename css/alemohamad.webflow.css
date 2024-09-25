@@ -1027,6 +1027,150 @@ h2 {
   background-color: #3c4042;
 }
 
+.color.space-black-ipad-m4 {
+  background-color: #2e2c2e;
+}
+
+.color.silver-ipad-m4 {
+  background-color: #e3e4e5;
+}
+
+.color.space-gray-ipad-air-m2 {
+  background-color: #6b696e;
+}
+
+.color.starlight-ipad-air-m2 {
+  background-color: #e3dcd1;
+}
+
+.color.purple-ipad-air-m2 {
+  background-color: #e3dee9;
+}
+
+.color.blue-ipad-13-m4 {
+  background-color: #d7e5e6;
+}
+
+.color.silver-ipad-10 {
+  background-color: #e3e4e5;
+}
+
+.color.pink-ipad-10 {
+  background-color: #de6274;
+}
+
+.color.blue-ipad-10 {
+  background-color: #6480a3;
+}
+
+.color.yellow-ipad-10 {
+  background-color: #f0d95b;
+}
+
+.color.space-gray-ipad-air-5 {
+  background-color: #6b696e;
+}
+
+.color.starlight-ipad-air-5 {
+  background-color: #e5e0d8;
+}
+
+.color.pink-ipad-air-5 {
+  background-color: #e8d2cf;
+}
+
+.color.purple-ipad-air-5 {
+  background-color: #b9b8d1;
+}
+
+.color.blue-ipad-air-5 {
+  background-color: #88aebf;
+}
+
+.color.space-gray-ipad-mini-6 {
+  background-color: #6b696e;
+}
+
+.color.starlight-ipad-mini-6 {
+  background-color: #e3dcd1;
+}
+
+.color.pink-ipad-mini-6 {
+  background-color: #e8d1cf;
+}
+
+.color.purple-ipad-mini-6 {
+  background-color: #b9b8d1;
+}
+
+.color.space-gray-ipad-9 {
+  background-color: #68696e;
+}
+
+.color.silver-ipad-9 {
+  background-color: #e2e3e4;
+}
+
+.color.space-gray-ipad-pro, .color.space-gray-ipad-air-4 {
+  background-color: #68696d;
+}
+
+.color.silver-ipad-air-4 {
+  background-color: #e2e3e4;
+}
+
+.color.rose-gold-ipad-air-4 {
+  background-color: #ecc5c1;
+}
+
+.color.sky-blue-ipad-air-4 {
+  background-color: #cee3f6;
+}
+
+.color.green-ipad-air-4 {
+  background-color: #ccdfc9;
+}
+
+.color.gold-ipad-8 {
+  background-color: #f6cdb9;
+}
+
+.color.space-gray-ipad-6 {
+  background-color: #b1b2b7;
+}
+
+.color.silver-ipad-6 {
+  background-color: #e2e3e4;
+}
+
+.color.gold-ipad-6 {
+  background-color: #f6cdb9;
+}
+
+.color.white-ipad {
+  background-color: #f4f4f6;
+}
+
+.color.black-ipad {
+  background-color: #000;
+}
+
+.color.space-gray-ipad-6-copy {
+  background-color: #b1b2b7;
+}
+
+.color.black-slate-ipad-mini {
+  background-color: #1f2020;
+}
+
+.color.white-silver-ipad-mini {
+  background-color: #f4f4f6;
+}
+
+.color.gold-ipad-air-2 {
+  background-color: #e3ccb4;
+}
+
 .iphone-colors {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
@@ -1130,6 +1274,26 @@ h2 {
 .detail-item.empty14 {
   padding-top: 51px;
   padding-bottom: 111px;
+}
+
+.detail-item.empty10 {
+  padding-top: 60px;
+  padding-bottom: 130px;
+}
+
+.detail-item.empty20 {
+  padding-top: 42px;
+  padding-bottom: 64px;
+}
+
+.detail-item.empty21 {
+  padding-top: 60px;
+  padding-bottom: 91px;
+}
+
+.detail-item.empty22 {
+  padding-top: 100px;
+  padding-bottom: 107px;
 }
 
 .highlighted-block {
@@ -1555,6 +1719,98 @@ h2 {
   margin-right: 16px;
 }
 
+.ipad-body {
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: block;
+}
+
+.ipad-devices-list {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  align-items: flex-start;
+  margin-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  position: relative;
+  top: 0;
+  overflow: visible;
+}
+
+.ipad-title {
+  color: #000;
+  margin: 24px 40px;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.ipad-paragraph {
+  color: #000;
+  max-width: 750px;
+  margin-bottom: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 21px;
+}
+
+.ipad-device-specs {
+  position: relative;
+  top: 0;
+}
+
+.ipad-title-block {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #ffffffb3;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+}
+
+.ipad-model {
+  color: #000;
+  margin-bottom: 0;
+  font-size: 19px;
+  line-height: 1.8rem;
+}
+
+.ipad-launch-date {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.device-ipad {
+  justify-content: center;
+  align-items: flex-end;
+  width: 350px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.ipad-colors {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 12px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
@@ -1748,6 +2004,14 @@ h2 {
   .event-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .ipad-title {
+    font-size: 42px;
+  }
+
+  .ipad-paragraph {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1813,6 +2077,19 @@ h2 {
 
   .event-grid {
     grid-template-columns: 1fr;
+  }
+
+  .ipad-title {
+    font-size: 32px;
+  }
+
+  .ipad-paragraph {
+    font-size: 14px;
+  }
+
+  .device-ipad {
+    width: 250px;
+    height: 380px;
   }
 }
 
