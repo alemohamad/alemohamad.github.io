@@ -1355,6 +1355,7 @@ h2 {
 }
 
 .subscribe-button {
+  opacity: .9;
   color: #fff;
   background-color: #f05138;
   border-radius: 8px;
@@ -1363,7 +1364,14 @@ h2 {
   font-weight: 600;
   line-height: 2em;
   text-decoration: none;
+  transition: all .2s cubic-bezier(.785, .135, .15, .86);
   display: inline-block;
+}
+
+.subscribe-button:hover {
+  opacity: 1;
+  transform: scale(1.02);
+  box-shadow: 0 2px 10px #f05138;
 }
 
 .playgrounds-copy-sm {
@@ -2052,6 +2060,11 @@ h2 {
 
   .ipad-paragraph {
     font-size: 18px;
+  }
+
+  .body-playgrounds {
+    justify-content: center;
+    align-items: stretch;
   }
 
   .playgrounds-heading {
