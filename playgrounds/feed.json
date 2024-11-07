@@ -148,43 +148,6 @@
             ]
         },
         {
-            "title": "Retos de Programación",
-            "overviewSubtitle": "Mejora tus habilidades",
-            "detailSubtitle": "Ejercicios para mejorar tu lógica de programación y desarrollo de aplicaciones para añadir a tu portfolio personal",
-            "description": "Los ejercicios semanales se resuelven en pocas líneas de código por lo que el conocimiento mínimo para abordarlos será menor que en las aplicaciones mensuales, ya que estas últimas cubren funcionalidades reales completas.\n\n¿Crees que no estás preparado? No te preocupes. Intenta llevar a cabo los ejercicios. Se trata de aprender y mejorar poco a poco, no de hacerlos perfectos o completos a la primera.\n\nEste proyecto para Swift Playgrounds es un gran acompañante para ver los enunciados de los retos de 2022 y 2023, además de poder ver la solución planteada por Brais Moure (y también mías). Si así lo quieres, puedes borrar el código provisto e intentar tu solución.\n\n¡Comencemos a picar!",
-            "contentIdentifier": "com.alemohamad.playgrounds.retosdeprogramacion",
-            "contentVersion": "1.0",
-            "url": "https://www.alemohamad.com/playgrounds/retos-de-programacion/retos-de-programacion.zip",
-            "publishedDate": "2023-11-18T09:00:00+01:00",
-            "lastUpdatedDate": "2023-11-18T09:00:00+01:00",
-            "thumbnailURL": "/playgrounds/retos-de-programacion/thumbnail.png",
-            "bannerImageURL": "/playgrounds/retos-de-programacion/bannerImage.png",
-            "additionalInformation": [
-                {
-                    "name": "Edition",
-                    "value": "Swift 5.9 Edition"
-                },
-                {
-                    "name": "Version",
-                    "value": "1.23.44"
-                },
-                {
-                    "type": "date",
-                    "name": "Released",
-                    "value": "2023-11-18T17:32:00+01:00"
-                },
-                {
-                    "name": "Languages",
-                    "value": "Español"
-                }
-            ],
-            "previewImageURLs": [
-                "/playgrounds/retos-de-programacion/preview-1.png",
-                "/playgrounds/retos-de-programacion/preview-2.png",
-                "/playgrounds/retos-de-programacion/preview-3.png"
-            ]
-        },
-        {
             "title": "Apple Logo in SwiftUI",
             "overviewSubtitle": "Create the classic logo",
             "description": "Here you'll recreate the classic rainbow Apple logo while learning the basics of symbols, colors and masks.\n\nIt's a fun and straightforward way to get hands-on and explore SwiftUI in a relaxed yet creative setting.",
