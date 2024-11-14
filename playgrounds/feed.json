@@ -81,7 +81,7 @@
             ]
         },
         {
-            "title": "Swift Code Kata",
+            "title": "Code Kata",
             "overviewSubtitle": "Practice Swift with Interactive Code Challenges",
             "description": "This is a playground designed for developers to strengthen their programming skills with 50 interactive code challenges. Covering a range of topics from basic syntax to complex algorithms, this book provides free form exercises to tackle classic programming problems in Swift and build confidence through practice.",
             "difficultyLevel": "beginner",
