@@ -81,6 +81,39 @@
             ]
         },
         {
+            "title": "Swift Code Kata",
+            "overviewSubtitle": "Practice Swift with Interactive Code Challenges",
+            "description": "This is a playground designed for developers to strengthen their programming skills with 50 interactive code challenges. Covering a range of topics from basic syntax to complex algorithms, this book provides free form exercises to tackle classic programming problems in Swift and build confidence through practice.",
+            "difficultyLevel": "beginner",
+            "contentIdentifier": "com.alemohamad.playgrounds.codekata",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/code-kata/code-kata.zip",
+            "publishedDate": "2024-11-14T09:00:00+01:00",
+            "lastUpdatedDate": "2024-11-14T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/code-kata/thumbnail.png",
+            "bannerImageURL": "/playgrounds/code-kata/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2024-11-14T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "English"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/code-kata/preview-1.png",
+                "/playgrounds/code-kata/preview-2.png",
+                "/playgrounds/code-kata/preview-3.png"
+            ]
+        },
+        {
             "title": "Formatting Fundamentals",
             "overviewSubtitle": "Format Like a Pro with Swift",
             "description": "This is your go-to Playground Book for mastering the intricacies of formatting in Swift. Whether you need to format numbers, currencies, dates, or measurements, this guide has got you covered. With examples localized in several languages, it showcases both classic and modern formatters, ensuring you can apply these techniques in any project. Plus, you’ll find practical usage examples for both UIKit and SwiftUI, making it an indispensable resource for Swift developers of all levels.",
