@@ -1887,6 +1887,7 @@ h2 {
   justify-content: center;
   align-items: flex-end;
   height: 70px;
+  margin-top: 0;
   font-size: 29px;
   line-height: 38px;
   display: flex;
@@ -1924,9 +1925,7 @@ h2 {
 
 .apple-tutorials-image {
   max-height: 200px;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 24px auto 0;
   display: block;
 }
 
