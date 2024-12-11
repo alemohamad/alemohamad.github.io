@@ -4,5 +4,5 @@
 	"es": "feed-es.json",
 	"fr": "feed-fr.json",
 	"jp": "feed-jp.json",
-	"zh-Hans": "feed-zh.json"
+	"zh_CN": "feed-zh.json"
 }
