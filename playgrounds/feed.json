@@ -1,8 +1,8 @@
 {
-	"de": "feed-de.json",
-	"en": "feed-en.json",
-	"es": "feed-es.json",
-	"fr": "feed-fr.json",
-	"jp": "feed-jp.json",
-	"zh_CN": "feed-zh.json"
+    "de": "feed-de.json",
+    "en": "feed-en.json",
+    "es": "feed-es.json",
+    "fr": "feed-fr.json",
+    "jp": "feed-jp.json",
+    "zh_CN": "feed-zh.json"
 }
