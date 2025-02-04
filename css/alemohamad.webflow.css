@@ -90,8 +90,9 @@ h2 {
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  transition: background-color .2s;
 }
 
 .container {
@@ -1495,11 +1496,11 @@ h2 {
 }
 
 .logos-playgrounds {
-  grid-column-gap: 36px;
-  grid-row-gap: 36px;
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
   justify-content: center;
   align-items: center;
-  padding-bottom: 48px;
+  padding-bottom: 20px;
   display: flex;
 }
 
@@ -1824,18 +1825,20 @@ h2 {
 }
 
 .body-playgrounds {
-  background-color: #d3d3d3;
+  background-color: #f0f0f0;
+  padding-bottom: 60px;
+  display: block;
 }
 
 .playgrounds-heading {
   color: #000;
   margin-top: 0;
   margin-bottom: 24px;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .playground-logo {
-  width: 80px;
+  width: 60px;
 }
 
 .playgrounds-copy {
@@ -1937,6 +1940,138 @@ h2 {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   grid-template-rows: auto;
+}
+
+.playground-icon {
+  border: 1px solid #999;
+  border-radius: 12px;
+  width: 220px;
+}
+
+.playground-section {
+  margin: 64px 20px;
+}
+
+.playground-title {
+  color: #000;
+  margin-bottom: 4px;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+.playgrounds-title-block {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 36px;
+  display: flex;
+}
+
+.playground-subtitle {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.playground-level {
+  color: #7c7c7c;
+  text-transform: capitalize;
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 1.2em;
+  display: inline-block;
+}
+
+.playgrounds-title-info {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.playground-download-button {
+  color: #007aff;
+  text-transform: uppercase;
+  background-color: #e2e2e2;
+  border-radius: 40px;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-decoration: none;
+  transition: background-color .2s;
+}
+
+.playground-download-button:hover {
+  background-color: #c9c9c9;
+}
+
+.playground-preview {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 22%;
+  margin-right: 16px;
+}
+
+.playgrounds-preview-set {
+  margin-bottom: 36px;
+}
+
+.playground-text {
+  color: #8c8c8c;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.playground-separator {
+  background-color: #000;
+  width: 100%;
+  height: 1px;
+}
+
+.playgrounds-description-block {
+  margin-bottom: 36px;
+}
+
+.playgrounds-information-block {
+  border-top: 1px solid #999;
+  margin-top: 18px;
+  margin-bottom: 36px;
+  padding-top: 18px;
+}
+
+.playground-info-title {
+  color: #8c8c8c;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.playground-info-item {
+  color: #494949;
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.playground-section-title {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2em;
 }
 
 @media screen and (max-width: 991px) {
@@ -2198,6 +2333,62 @@ h2 {
     grid-row-gap: 36px;
     grid-template-columns: 1fr;
   }
+
+  .playground-icon {
+    width: 180px;
+  }
+
+  .playground-section {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .playground-title {
+    font-size: 18px;
+  }
+
+  .playgrounds-title-block {
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+    margin-bottom: 24px;
+  }
+
+  .playground-subtitle {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+  .playground-level {
+    margin-bottom: 12px;
+  }
+
+  .playground-preview {
+    margin-right: 8px;
+  }
+
+  .playgrounds-preview-set {
+    margin-bottom: 24px;
+  }
+
+  .playground-text {
+    font-size: 12px;
+  }
+
+  .playgrounds-description-block {
+    margin-bottom: 24px;
+  }
+
+  .playgrounds-information-block {
+    margin-bottom: 0;
+  }
+
+  .playground-info-title {
+    font-size: 11px;
+  }
+
+  .playground-section-title {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2276,6 +2467,12 @@ h2 {
   .device-ipad {
     width: 250px;
     height: 380px;
+  }
+
+  .playgrounds-title-block {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
 
