@@ -1206,7 +1206,7 @@ h2 {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-  padding: 8px;
+  padding: 8px 8px 16px;
   position: sticky;
   top: 0;
 }
