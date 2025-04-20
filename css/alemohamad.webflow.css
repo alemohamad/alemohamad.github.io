@@ -201,7 +201,7 @@ h2 {
 }
 
 .app-section.tzolkin-maya {
-  background-color: #f1f1f1;
+  background-color: #ececec;
   background-image: url('../images/tzolkin-maya-devices-half.png');
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -209,7 +209,7 @@ h2 {
 }
 
 .app-section.gentleman {
-  background-color: #dbdbdb;
+  background-color: #dcdcdc;
   background-image: url('../images/gentleman-devices-half.png');
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -237,6 +237,14 @@ h2 {
 .app-section.brewholic-ratio {
   background-color: #e6e6e6;
   background-image: url('../images/brewholic-ratio-device-half.png');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 722px;
+}
+
+.app-section.numo-income-tracker {
+  background-color: #f4f4f4;
+  background-image: url('../images/numo-device-half.png');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: 722px;
@@ -2092,6 +2100,11 @@ h2 {
   display: flex;
 }
 
+.app-icon {
+  border-radius: 12px;
+  box-shadow: 0 4px 32px #0000001a;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
@@ -2104,7 +2117,7 @@ h2 {
     margin-bottom: 32px;
   }
 
-  .app-section.tzolkin-maya, .app-section.gentleman, .app-section.suji, .app-section.bus-fuengirola, .app-section.brewholic-ratio {
+  .app-section.tzolkin-maya, .app-section.gentleman, .app-section.suji, .app-section.bus-fuengirola, .app-section.brewholic-ratio, .app-section.numo-income-tracker {
     background-position: 50% 100%;
     background-size: 512px;
   }
@@ -2186,7 +2199,7 @@ h2 {
     background-attachment: scroll;
   }
 
-  .app-section.bus-fuengirola, .app-section.brewholic-ratio {
+  .app-section.bus-fuengirola, .app-section.brewholic-ratio, .app-section.numo-income-tracker {
     background-image: none;
     background-position: 0 0;
     background-repeat: repeat;
