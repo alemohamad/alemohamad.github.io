@@ -4,7 +4,7 @@
     "publisherName": "Ale Mohamad",
     "feedIdentifier": "com.alemohamad.playgrounds",
     "contactURL": "mailto:hello@alemohamad.com",
-    "formatVersion": "1.0",
+    "formatVersion": "1.2",
     "documents": [
         {
             "title": "Assets for Playgrounds",
@@ -230,6 +230,39 @@
             "previewImageURLs": [
                 "/playgrounds/apple-logo/preview-1.png",
                 "/playgrounds/apple-logo/preview-2.png"
+            ]
+        },
+        {
+            "title": "Swift Concurrency",
+            "overviewSubtitle": "クラシックモデルとモダンモデルを学ぶ",
+            "description": "並行処理は、アプリが同時に複数のことをこなしながらも操作にすぐ反応し続けられるようにする仕組みですが、その扱いを誤ると、ソフトウェアの中でもとりわけ厄介なバグの原因になります。カクつくリスト、ときどきだけ間違う値、タップすると固まる画面などです。\n\nこの本は、Swift の並行処理を2つの時代にわたって教えます。Grand Central Dispatch と Operations に基づくクラシックモデルと、async/await、構造化された並行処理、actor からなるモダンモデルです。古いやり方を時代遅れとして片づけるのではなく、同じ問題を両方の方法で解くことで、モダンなツールが和らげようとした痛みを実感し、それぞれをいつ使うべきかを学べます。\n\nどの概念にも、実行し、編集し、もう一度実行できる小さく独立した例が付いていて、順序、タイミング、キャンセル、そして data race が実際に起こるようすを、その場で観察できます。出力を予想してから、自分のメンタルモデルがどこで崩れるのかを確かめることで、直感が育っていきます。\n\nスレッド、キュー、そして誰もがつまずく落とし穴から始めて、actor、Sendable、そして現代の Swift が備える data race 安全性へと進み、最後には、それぞれのツールがどう動くかだけでなく、目の前の仕事にどれを選べばよいのかまで分かるようになります。",
+            "difficultyLevel": "expert",
+            "contentIdentifier": "com.alemohamad.playgrounds.swiftconcurrency",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/swift-concurrency/swift-concurrency.zip",
+            "publishedDate": "2026-07-29T09:00:00+01:00",
+            "lastUpdatedDate": "2026-07-29T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/swift-concurrency/thumbnail.png",
+            "bannerImageURL": "/playgrounds/swift-concurrency/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2026-07-29T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "英語、中国語 (簡体字)、フランス語、ドイツ語、日本語、スペイン語"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/swift-concurrency/ja/preview-1.png",
+                "/playgrounds/swift-concurrency/ja/preview-2.png",
+                "/playgrounds/swift-concurrency/ja/preview-3.png"
             ]
         }
     ]

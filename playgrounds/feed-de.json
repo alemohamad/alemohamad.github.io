@@ -4,7 +4,7 @@
     "publisherName": "Ale Mohamad",
     "feedIdentifier": "com.alemohamad.playgrounds",
     "contactURL": "mailto:hello@alemohamad.com",
-    "formatVersion": "1.0",
+    "formatVersion": "1.2",
     "documents": [
         {
             "title": "Assets for Playgrounds",
@@ -230,6 +230,39 @@
             "previewImageURLs": [
                 "/playgrounds/apple-logo/preview-1.png",
                 "/playgrounds/apple-logo/preview-2.png"
+            ]
+        },
+        {
+            "title": "Swift Concurrency",
+            "overviewSubtitle": "Lerne das klassische und das moderne Modell",
+            "description": "Nebenläufigkeit sorgt dafür, dass eine App reaktionsfähig bleibt, während sie mehr als eine Sache gleichzeitig erledigt, und sie falsch einzusetzen steckt hinter einigen der rätselhaftesten Fehler in Software: die Liste, die stockt, der Wert, der nur manchmal falsch ist, die Berührung, die den Bildschirm einfriert.\n\nDieses Buch vermittelt Nebenläufigkeit in Swift über ihre beiden Ären hinweg: das klassische Modell auf Basis von Grand Central Dispatch und Operations und das moderne Modell aus async/await, strukturierter Nebenläufigkeit und actors. Statt den älteren Ansatz als veraltet abzutun, löst es dasselbe Problem auf beide Arten, damit du die Schmerzen spürst, die die modernen Werkzeuge lindern sollten, und lernst, wann du zu welchem greifst.\n\nZu jedem Konzept gibt es kleine, in sich geschlossene Beispiele, die du ausführen, bearbeiten und erneut ausführen kannst, während du Nebenläufigkeit in Echtzeit beobachtest: Reihenfolge, Timing, Abbruch und data races, so wie sie tatsächlich auftreten. Du entwickelst ein Gespür, indem du die Ausgabe vorhersagst und dann genau siehst, wo dein mentales Modell nachgibt.\n\nVon Threads, Warteschlangen und den Fallstricken, über die jeder stolpert, arbeitest du dich bis zu actors, Sendable und der modernen data-race-Sicherheit von Swift vor und weißt am Ende nicht nur, wie jedes Werkzeug funktioniert, sondern welchem du für die Aufgabe vor dir vertrauen kannst.",
+            "difficultyLevel": "expert",
+            "contentIdentifier": "com.alemohamad.playgrounds.swiftconcurrency",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/swift-concurrency/swift-concurrency.zip",
+            "publishedDate": "2026-07-29T09:00:00+01:00",
+            "lastUpdatedDate": "2026-07-29T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/swift-concurrency/thumbnail.png",
+            "bannerImageURL": "/playgrounds/swift-concurrency/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2026-07-29T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "Englisch, Chinesisch (vereinfacht), Französisch, Deutsch, Japanisch und Spanisch"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/swift-concurrency/de/preview-1.png",
+                "/playgrounds/swift-concurrency/de/preview-2.png",
+                "/playgrounds/swift-concurrency/de/preview-3.png"
             ]
         }
     ]

@@ -4,7 +4,7 @@
     "publisherName": "Ale Mohamad",
     "feedIdentifier": "com.alemohamad.playgrounds",
     "contactURL": "mailto:hello@alemohamad.com",
-    "formatVersion": "1.0",
+    "formatVersion": "1.2",
     "documents": [
         {
             "title": "Assets for Playgrounds",
@@ -230,6 +230,39 @@
             "previewImageURLs": [
                 "/playgrounds/apple-logo/preview-1.png",
                 "/playgrounds/apple-logo/preview-2.png"
+            ]
+        },
+        {
+            "title": "Swift Concurrency",
+            "overviewSubtitle": "学习经典模型与现代模型",
+            "description": "并发让 app 在同时处理多件事情的同时依然保持流畅响应，而一旦用错，它往往就是软件中那些最令人费解的 bug 的根源：卡顿的列表、只在某些时候出错的值、一点击就卡住的界面。\n\n这本书讲解 Swift 中的并发，贯穿它的两个时代：建立在 Grand Central Dispatch 和 Operations 之上的经典模型，以及由 async/await、结构化并发和 actor 组成的现代模型。它不会把旧方式当作过时之物，而是用两种方式解决同一个问题，让你亲身体会现代工具所要缓解的痛点，并学会在什么时候选用哪一种。\n\n每个概念都配有小巧、独立的示例，你可以运行、修改、再运行，实时观察并发的发生：顺序、时序、取消，以及 data race 真实上演的样子。你可以先预测输出，再看看自己的心智模型究竟在哪里出现偏差，从而一点点建立直觉。\n\n从线程、队列，以及每个人都会栽跟头的那些陷阱出发，一路走到 actor、Sendable 和现代 Swift 的 data race 安全性，最终你不仅会明白每个工具如何运作，还会知道面对眼前的任务该信赖哪一个。",
+            "difficultyLevel": "expert",
+            "contentIdentifier": "com.alemohamad.playgrounds.swiftconcurrency",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/swift-concurrency/swift-concurrency.zip",
+            "publishedDate": "2026-07-29T09:00:00+01:00",
+            "lastUpdatedDate": "2026-07-29T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/swift-concurrency/thumbnail.png",
+            "bannerImageURL": "/playgrounds/swift-concurrency/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2026-07-29T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "英语、中文（简体）、法语、德语、日语和西班牙语"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/swift-concurrency/zh/preview-1.png",
+                "/playgrounds/swift-concurrency/zh/preview-2.png",
+                "/playgrounds/swift-concurrency/zh/preview-3.png"
             ]
         }
     ]

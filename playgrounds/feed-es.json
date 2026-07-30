@@ -4,7 +4,7 @@
     "publisherName": "Ale Mohamad",
     "feedIdentifier": "com.alemohamad.playgrounds",
     "contactURL": "mailto:hello@alemohamad.com",
-    "formatVersion": "1.0",
+    "formatVersion": "1.2",
     "documents": [
         {
             "title": "Assets for Playgrounds",
@@ -230,6 +230,39 @@
             "previewImageURLs": [
                 "/playgrounds/apple-logo/preview-1.png",
                 "/playgrounds/apple-logo/preview-2.png"
+            ]
+        },
+        {
+            "title": "Swift Concurrency",
+            "overviewSubtitle": "Aprende el modelo clásico y el moderno",
+            "description": "La concurrencia es lo que mantiene una app receptiva mientras hace más de una cosa a la vez, y hacerla mal está detrás de algunos de los errores más desconcertantes del software: la lista que da tirones, el valor que solo a veces sale mal, el toque que congela la pantalla.\n\nEste libro enseña la concurrencia en Swift a lo largo de sus dos eras: el modelo clásico, construido sobre Grand Central Dispatch y Operations, y el modelo moderno de async/await, concurrencia estructurada y actors. En lugar de tratar el enfoque antiguo como obsoleto, resuelve el mismo problema de las dos formas, para que sientas los dolores que las herramientas modernas vinieron a aliviar y aprendas cuándo recurrir a cada una.\n\nCada concepto viene con ejemplos pequeños y autocontenidos que puedes ejecutar, editar y volver a ejecutar, observando la concurrencia en tiempo real: el orden, los tiempos, la cancelación y las data races tal como ocurren. Construyes intuición prediciendo la salida y viendo luego exactamente dónde se dobla tu modelo mental.\n\nPartiendo de los hilos, las colas y los peligros con los que todos tropiezan, llegas hasta los actors, Sendable y la seguridad frente a data races del Swift moderno, y terminas sabiendo no solo cómo funciona cada herramienta, sino en cuál confiar para el trabajo que tienes delante.",
+            "difficultyLevel": "expert",
+            "contentIdentifier": "com.alemohamad.playgrounds.swiftconcurrency",
+            "contentVersion": "1.0",
+            "url": "https://www.alemohamad.com/playgrounds/swift-concurrency/swift-concurrency.zip",
+            "publishedDate": "2026-07-29T09:00:00+01:00",
+            "lastUpdatedDate": "2026-07-29T09:00:00+01:00",
+            "thumbnailURL": "/playgrounds/swift-concurrency/thumbnail.png",
+            "bannerImageURL": "/playgrounds/swift-concurrency/bannerImage.png",
+            "additionalInformation": [
+                {
+                    "name": "Version",
+                    "value": "1.0"
+                },
+                {
+                    "type": "date",
+                    "name": "Released",
+                    "value": "2026-07-29T09:00:00+01:00"
+                },
+                {
+                    "name": "Languages",
+                    "value": "Inglés, chino (simplificado), francés, alemán, japonés y español"
+                }
+            ],
+            "previewImageURLs": [
+                "/playgrounds/swift-concurrency/es/preview-1.png",
+                "/playgrounds/swift-concurrency/es/preview-2.png",
+                "/playgrounds/swift-concurrency/es/preview-3.png"
             ]
         }
     ]
