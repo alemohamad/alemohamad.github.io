@@ -110,10 +110,28 @@ input.w-button {
   text-align: inherit;
   text-decoration: inherit;
 }
+:where(button.w-modal-trigger) {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: inherit;
+}
 .w-popover {
   position-anchor: none;
 }
 .w-popover[popover]:not(:popover-open) {
+  display: none;
+}
+.w-modal:not([open]):not([popover]) {
+  display: none;
+}
+.w-modal[popover]:not(:popover-open) {
   display: none;
 }
 html[data-w-dynpage] [data-w-cloak] {

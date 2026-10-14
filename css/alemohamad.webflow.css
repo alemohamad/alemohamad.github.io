@@ -3,6 +3,13 @@
   --black: black;
 }
 
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -10,13 +17,6 @@
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
-}
-
-.w-layout-blockcontainer {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -1461,10 +1461,6 @@ h3 {
     justify-content: flex-start;
     align-items: flex-start;
   }
-}
-
-#w-node-_4c3fc031-34f6-9a40-c4fd-d3147b41f4fd-06e58b51, #w-node-_5f4f9b39-0de0-9161-b171-604ceac1481c-06e58b51 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-_3f2786ea-2472-b24e-dfcf-19044d3b5e6a-7bbee89a {
