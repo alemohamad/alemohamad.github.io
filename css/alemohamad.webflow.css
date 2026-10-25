@@ -327,7 +327,7 @@ h3 {
 .privacy-policy-body {
   color: #333;
   background-color: #fff;
-  padding: 16px;
+  padding: 16px 16px 36px;
   display: block;
 }
 
@@ -1120,6 +1120,16 @@ h3 {
   padding: 80px 20px;
 }
 
+.privacy-heading-h2 {
+  color: #888;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.privacy-link {
+  color: #51a0d5;
+}
+
 @media screen and (max-width: 991px) {
   .container.cards {
     flex-direction: column;
@@ -1157,6 +1167,10 @@ h3 {
 
   .event-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .privacy-heading-h2 {
+    margin-top: 8px;
   }
 }
 
@@ -1405,6 +1419,12 @@ h3 {
 
   .playground-section-title {
     font-size: 14px;
+  }
+
+  .privacy-heading-h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
   }
 }
 
