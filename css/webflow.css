@@ -122,8 +122,9 @@ input.w-button {
   text-align: inherit;
   text-decoration: inherit;
 }
-.w-popover {
-  position-anchor: none;
+:where(.w-popover) {
+  position-anchor: auto;
+  position-area: top;
 }
 :where(
   .w-popover[data-w-popover-backdrop-animated],
