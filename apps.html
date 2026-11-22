@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Nov 20 2026 13:01:02 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Nov 22 2026 11:36:58 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="66183bdf716e9e387bbee89a" data-wf-site="6065d70b7be4fe44f8eda6bc" lang="en">
 <head>
   <meta charset="utf-8">
@@ -25,9 +25,11 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#000000">
   <style>
 /* Todo el diseño vive en clases de Webflow (bx-*). Aqui solo el fondo, los hovers y el offset del scroll. */
-html,body{background-color:#000}
+/* Fondo negro tambien al hacer rebote con el scroll en iPhone, y sin scroll horizontal */
+html,body{background-color:#000 !important;overflow-x:clip}
 /* Cada bento es un enlace al App Store: al pasar el mouse solo crece el icono y su sombra de color */
 .bx-icon{transition:transform 500ms cubic-bezier(.2,.8,.2,1),filter 500ms cubic-bezier(.2,.8,.2,1)}
 /* Capa propia para que el navegador vuelva a dibujar la sombra cuando la imagen termina de cargar */
@@ -108,21 +110,21 @@ html,body{background-color:#000}
       </nav>
     </div>
     <a id="burin" aria-label="Burin on the App Store" href="https://apps.apple.com/app/id6834579758" target="_blank" class="bx-board w-inline-block">
-      <div class="bx-t bx-bu-duo"><img src="images/burin-duo.webp" loading="lazy" sizes="(max-width: 900px) 100vw, 900px" srcset="images/burin-duo-p-500.webp 500w, images/burin-duo-p-800.webp 800w, images/burin-duo.webp 900w" alt="Burin project overview on iPhone" class="bx-img"></div>
+      <div class="bx-t bx-bu-duo"><img src="images/burin-duo.webp" loading="lazy" sizes="100vw" srcset="images/burin-duo-p-500.webp 500w, images/burin-duo-p-800.webp 800w, images/burin-duo.webp 900w" alt="Burin project overview on iPhone" class="bx-img"></div>
       <div class="bx-t bx-bu-icon"><img src="images/burin.webp" loading="eager" decoding="sync" alt="Burin app icon" class="bx-icon bx-glow-burin">
         <p class="bx-cap bx-cap-app">Burin</p>
       </div>
       <div class="bx-t bx-bu-strings">
-        <p class="bx-big bx-grad-burin bx-xs">Localization</p>
+        <p class="bx-big bx-grad-burin">Localization</p>
         <p class="bx-cap">translated side by side</p>
       </div>
       <div class="bx-t bx-bu-settings">
-        <p class="bx-big bx-grad-burin bx-xs">Settings</p>
+        <p class="bx-big bx-grad-burin">Settings</p>
         <p class="bx-cap">version, bundle ID and Info.plist</p>
       </div>
-      <div class="bx-t bx-bu-ipad"><img src="images/burin-ipad.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/burin-ipad-p-500.webp 500w, images/burin-ipad-p-800.webp 800w, images/burin-ipad-p-1080.webp 1080w, images/burin-ipad.webp 1600w" alt="Burin on iPad browsing a project&#x27;s asset catalog" class="bx-img bx-ipad-burin"></div>
+      <div class="bx-t bx-bu-ipad"><img src="images/burin-ipad.webp" loading="lazy" sizes="100vw" srcset="images/burin-ipad-p-500.webp 500w, images/burin-ipad-p-800.webp 800w, images/burin-ipad-p-1080.webp 1080w, images/burin-ipad.webp 1600w" alt="Burin on iPad browsing a project&#x27;s asset catalog" class="bx-img bx-ipad-burin"></div>
       <div class="bx-t bx-bu-assets">
-        <p class="bx-big bx-grad-burin bx-xs">Assets</p>
+        <p class="bx-big bx-grad-burin">Assets</p>
         <p class="bx-cap">images, colors, symbols and data</p>
       </div>
       <div class="bx-t bx-bu-quote">
@@ -139,12 +141,12 @@ html,body{background-color:#000}
       <div class="bx-t bx-d-icon"><img src="images/apps-v2-dexa-icon.webp" loading="eager" decoding="sync" alt="Dexa app icon" class="bx-icon bx-glow-dexa">
         <p class="bx-cap bx-cap-app">Dexa</p>
       </div>
-      <div id="d-phone" class="bx-t bx-d-phone"><img src="images/dexa-iphone-v2.webp" loading="lazy" sizes="(max-width: 900px) 100vw, 900px" srcset="images/dexa-iphone-v2-p-500.webp 500w, images/dexa-iphone-v2-p-800.webp 800w, images/dexa-iphone-v2.webp 900w" alt="Dexa on iPhone showing a UML class diagram" class="bx-img"></div>
+      <div id="d-phone" class="bx-t bx-d-phone"><img src="images/dexa-iphone-v2.webp" loading="lazy" sizes="100vw" srcset="images/dexa-iphone-v2-p-500.webp 500w, images/dexa-iphone-v2-p-800.webp 800w, images/dexa-iphone-v2.webp 900w" alt="Dexa on iPhone showing a UML class diagram" class="bx-img"></div>
       <div id="d-uml" class="bx-t bx-d-uml">
         <p class="bx-big bx-green">UML</p>
         <p class="bx-cap">class diagrams</p>
       </div>
-      <div id="d-vision" class="bx-t bx-d-vision"><img src="images/dexa-apple-tv.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/dexa-apple-tv-p-500.webp 500w, images/dexa-apple-tv-p-800.webp 800w, images/dexa-apple-tv-p-1080.webp 1080w, images/dexa-apple-tv.webp 1600w" alt="Dexa on Apple Vision Pro" class="bx-cover">
+      <div id="d-vision" class="bx-t bx-d-vision"><img src="images/dexa-apple-tv.webp" loading="lazy" sizes="100vw" srcset="images/dexa-apple-tv-p-500.webp 500w, images/dexa-apple-tv-p-800.webp 800w, images/dexa-apple-tv-p-1080.webp 1080w, images/dexa-apple-tv.webp 1600w" alt="Dexa on Apple Vision Pro" class="bx-cover">
         <p class="bx-overcap">Present on Apple TV</p>
         <div class="bx-shade"></div>
       </div>
@@ -153,7 +155,7 @@ html,body{background-color:#000}
           <p class="bx-mono bx-mono-green">PlantUML</p>
           <p class="bx-mono bx-mono-green">Mermaid</p>
         </div>
-        <p class="bx-cap">Import</p>
+        <p class="bx-cap">Turn code into diagrams</p>
       </div>
       <div id="d-quote" class="bx-t bx-d-quote">
         <p class="bx-quote bx-quote-dexa">From the office to the classroom.</p>
@@ -178,8 +180,7 @@ html,body{background-color:#000}
         <p class="bx-big bx-grad-plyra">Typed</p>
         <p class="bx-cap">every key, every value</p>
       </div>
-      <div id="p-review" class="bx-t bx-p-review">
-        <p class="bx-big bx-orange">⚠︎</p>
+      <div id="p-review" class="bx-t bx-p-review"><img src="images/warning-triangle.svg" loading="lazy" alt="" class="bx-warn-img">
         <p class="bx-cap">App Review checks</p>
       </div>
       <div class="bx-t bx-p-quote">
@@ -253,7 +254,7 @@ html,body{background-color:#000}
       <div id="t-ipad" class="bx-t bx-t-ipad"><img src="images/nawal-ipad.webp" loading="lazy" sizes="100vw" srcset="images/nawal-ipad-p-500.webp 500w, images/nawal-ipad-p-800.webp 800w, images/nawal-ipad-p-1080.webp 1080w, images/nawal-ipad.webp 1600w" alt="Nawal seal reading on iPad" class="bx-img bx-ipad-nawal"></div>
       <div id="t-pair" class="bx-t bx-t-pair"><img src="images/nawal-duo.webp" loading="lazy" sizes="100vw" srcset="images/nawal-duo-p-500.webp 500w, images/nawal-duo-p-800.webp 800w, images/nawal-duo.webp 900w" alt="Nawal Dreamspell home on iPhone" class="bx-img"></div>
       <div id="t-icloud" class="bx-t bx-t-icloud">
-        <p class="bx-big bx-grad-nawal bx-sm">Your circle</p>
+        <p class="bx-big bx-grad-nawal">Your circle</p>
         <p class="bx-cap">synced with your iCloud</p>
       </div>
       <div id="t-plats" class="bx-t bx-t-plats">
@@ -293,8 +294,7 @@ html,body{background-color:#000}
       </div>
       <div id="c-widgets" class="bx-t bx-c-widgets"><img src="images/clina-iphone-dark.webp" loading="lazy" sizes="100vw" srcset="images/clina-iphone-dark-p-500.webp 500w, images/clina-iphone-dark.webp 700w" alt="Clina in dark mode on iPhone saying it&#x27;s going to be a beautiful day" class="bx-img bx-bleed-b"></div>
       <div id="c-themes" class="bx-t bx-c-themes"><img src="images/clina-duo-photo.webp" loading="lazy" sizes="100vw" srcset="images/clina-duo-photo-p-500.webp 500w, images/clina-duo-photo-p-800.webp 800w, images/clina-duo-photo-p-1080.webp 1080w, images/clina-duo-photo.webp 1600w" alt="Clina on an iPhone Duo standing on a table, showing a morning forecast" class="bx-cover"></div>
-      <div id="c-kit" class="bx-t bx-c-kit">
-        <p class="bx-mono">WeatherKit</p>
+      <div id="c-kit" class="bx-t bx-c-kit"><img src="images/WeatherKit.webp" loading="lazy" alt="WeatherKit" class="bx-kit-img">
         <p class="bx-cap">Apple Weather data</p>
       </div>
       <div id="c-week" class="bx-t bx-c-week">
@@ -302,7 +302,7 @@ html,body{background-color:#000}
         <p class="bx-cap">outlook</p>
       </div>
       <div class="bx-t bx-c-noads">
-        <p class="bx-big bx-grad-clina bx-sm">Any city</p>
+        <p class="bx-big bx-grad-clina">Any city</p>
         <p class="bx-cap">its forecast, one search away</p>
       </div>
       <div class="bx-t bx-c-quote">
@@ -326,7 +326,7 @@ html,body{background-color:#000}
       </div>
       <div id="r-shot2" class="bx-t bx-r-shot2"><img src="images/simple-coffee-ratio-dark.webp" loading="lazy" sizes="100vw" srcset="images/simple-coffee-ratio-dark-p-500.webp 500w, images/simple-coffee-ratio-dark.webp 700w" alt="Simple Coffee Ratio in dark mode on iPhone" class="bx-img bx-bleed-ratio"></div>
       <div class="bx-t bx-r-snap">
-        <p class="bx-big bx-grad-ratio bx-sm">Measure</p>
+        <p class="bx-big bx-grad-ratio">Measure</p>
         <p class="bx-cap">every gram and milliliter</p>
       </div>
       <div class="bx-t bx-r-quote">
@@ -349,16 +349,15 @@ html,body{background-color:#000}
       </div>
       <div id="n-shot1" class="bx-t bx-n-shot1"><img src="images/numo-history.webp" loading="lazy" sizes="100vw" srcset="images/numo-history-p-500.webp 500w, images/numo-history-p-800.webp 800w, images/numo-history.webp 900w" alt="Numo history showing today&#x27;s expenses" class="bx-img bx-bleed-b"></div>
       <div id="n-words" class="bx-t bx-n-words">
-        <p class="bx-big bx-grad-numo bx-sm">Just numbers</p>
+        <p class="bx-big bx-grad-numo">Just numbers</p>
         <p class="bx-cap">no tags, no notes, no categories</p>
       </div>
       <div id="n-shot2" class="bx-t bx-n-shot2"><img src="images/numo-home-dark.webp" loading="lazy" sizes="100vw" srcset="images/numo-home-dark-p-500.webp 500w, images/numo-home-dark-p-800.webp 800w, images/numo-home-dark.webp 900w" alt="Numo home with day, week and month totals in dark mode" class="bx-img bx-bleed-t"></div>
-      <div id="n-swift" class="bx-t bx-n-swift">
-        <p class="bx-big bx-grad-numo">Swift</p>
-        <p class="bx-cap">built in Swift Playground</p>
+      <div id="n-swift" class="bx-t bx-n-swift"><img src="images/swift-playground.webp" loading="lazy" alt="Swift Playground" class="bx-kit-img bx-kit-swift">
+        <p class="bx-cap">Built in Swift Playground</p>
       </div>
       <div class="bx-t bx-n-year">
-        <p class="bx-big bx-grad-numo bx-sm">Yearly</p>
+        <p class="bx-big bx-grad-numo">Yearly</p>
         <p class="bx-cap">spending chart</p>
       </div>
       <div class="bx-t bx-n-quote">
@@ -374,9 +373,9 @@ html,body{background-color:#000}
     <footer class="bx-footer">
       <a href="https://x.com/alemohamad" target="_blank" class="bx-social">X</a>
       <a href="https://bsky.app/profile/alemohamad.com" target="_blank" class="bx-social">Bluesky</a>
-      <a href="https://mastodon.social/@alemohamad" class="bx-social">Mastodon</a>
-      <a href="https://www.threads.com/@alemohamad" class="bx-social">Threads</a>
-      <a href="https://www.linkedin.com/in/alemohamad/" class="bx-social">LinkedIn</a>
+      <a href="https://mastodon.social/@alemohamad" target="_blank" class="bx-social">Mastodon</a>
+      <a href="https://www.threads.com/@alemohamad" target="_blank" class="bx-social">Threads</a>
+      <a href="https://www.linkedin.com/in/alemohamad/" target="_blank" class="bx-social">LinkedIn</a>
     </footer>
   </main>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6065d70b7be4fe44f8eda6bc" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
